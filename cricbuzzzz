@@ -1,0 +1,1102 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background-color: #E3E6E3;
+    font-family: helvetica;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Helper classes */
+.row{
+    display:flex;
+}
+.w-100{
+    width:100%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.center{
+    justify-content:center;
+}
+
+#container{
+    width:72%;
+    margin:10px auto 0 auto;
+}
+/* header section */
+header{
+    background-color: #009270;
+    padding: 0px 18px;
+}
+header .col1{
+    width:10%;
+    margin-top:10px;
+}
+header .col2{
+    width:70%;
+}
+
+nav>ul>li>a{
+    color:white;
+    text-transform: capitalize;
+    display: block;
+    padding:18px 8px;
+    font-size: 14px;
+}
+nav>ul>li>a:hover{
+    background-color: #028062;
+}
+
+
+nav ul li a i{
+    display: inline-block;
+    font-size: 10px;
+    color:white;
+    margin-left: 5px;
+}
+nav ul li .dropdown{
+    background-color: white;
+    position: absolute;
+    width:200%;
+    display: none;
+}
+nav ul li{
+    position: relative;
+}
+
+
+.user-menu ul li:nth-child(2),
+
+.user-menu ul li:nth-child(3)
+{
+    padding-top: 5px;
+}
+nav ul li .dropdown a{
+    color:black;
+    text-transform: capitalize;
+    display: block;
+    padding:10px 5px;
+    font-size: 14px;
+}
+
+nav .dropdown ul li:hover a{
+    background-color: #E3E6E3;
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+ .user-menu i{
+    color:white;
+    font-size: 16px;
+}
+.user-menu li{
+    margin:12px 5px 0 0;
+    
+}
+.user-menu li:first-child{
+    margin-right: 25px;
+}
+.user-menu li:first-child a{
+    font-size: 16px;
+    display: block;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* sec -header section */
+#sec-header{
+    background-color: #4A4A4A;
+}
+#sec-header .active a{
+    background-color: #222;
+}
+#sec-header a{
+    color:white;
+    font-size: 12px;
+    display:block;
+    padding: 13px 12px;
+}
+#sec-header a:hover{
+    background-color: #444444;
+}
+/* Content section */
+
+.F-matches{
+    background-color: #FFFFFF;
+    color: #009270;
+    padding-top: 10px;
+    font-size: 14px;
+border-bottom: 5px solid #E3E6E3;
+    
+}
+
+.s-score h2{
+    background-color: #FFFFFF;
+    color: #009270;
+    padding-left: 14px;
+
+}
+
+.s-score ul {
+    display: inline-block;
+    padding: 0 90px 10px 30px;
+    border-right: 1px solid black;
+    
+}
+
+.s-score ul li a{
+    color: #222;
+}
+    
+
+
+
+
+.sidebar1{
+    width:21%;
+}
+.sidebar2{
+    width: 30%;
+}
+
+.sidebar1 h2,
+.sidebar2 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #009270;
+}
+.sidebar1 .latest-news{
+    background-color: white;
+    padding: 12px 14px;
+}
+.sidebar1 .latest-news ul li a{
+    display: block;
+    font-size: 16px;
+    color: #222;
+}
+.sidebar1 .latest-news ul li{
+    
+    margin-bottom:18px;
+}
+.sidebar1 .latest-news ul li a:hover{
+    text-decoration: underline;
+}
+.sidebar1 .latest-news ul li small{
+    color: #444444;
+}
+
+.sidebar2 {
+    background-color: white;
+}
+
+.sidebar2 .f-videos{
+    padding: 12px 14px;
+}
+
+.f-videos .f-vid h3{
+    color: #222;
+}
+
+
+#main {
+padding: 16px;
+background-color: white;
+border-left: 5px solid #E3E6E3;
+border-right: 5px solid #E3E6E3;
+}
+
+#main{
+    width: 49%;
+}
+
+#main h2{
+    color: #222;
+
+}
+
+#main p{
+    color: #222;
+}
+
+.footer{
+    background-color: #4A4A4A;
+    padding-bottom: 70px ;
+    padding-left: 400px;
+}
+
+.F-logo{
+    width: 15%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+ .mobile-site h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+.follow h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+.company h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+
+
+.mobile-site ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+     line-height: 2;
+}
+
+.follow ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    line-height: 2;
+}
+
+
+.company ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    background-color: #E3E6E3;
+    font-family: helvetica;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Helper classes */
+.row{
+    display:flex;
+}
+.w-100{
+    width:100%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.center{
+    justify-content:center;
+}
+
+#container{
+    width:72%;
+    margin:10px auto 0 auto;
+}
+/* header section */
+header{
+    background-color: #009270;
+    padding: 0px 18px;
+}
+header .col1{
+    width:10%;
+    margin-top:10px;
+}
+header .col2{
+    width:70%;
+}
+
+nav>ul>li>a{
+    color:white;
+    text-transform: capitalize;
+    display: block;
+    padding:18px 8px;
+    font-size: 14px;
+}
+nav>ul>li>a:hover{
+    background-color: #028062;
+}
+
+
+nav ul li a i{
+    display: inline-block;
+    font-size: 10px;
+    color:white;
+    margin-left: 5px;
+}
+nav ul li .dropdown{
+    background-color: white;
+    position: absolute;
+    width:200%;
+    display: none;
+}
+nav ul li{
+    position: relative;
+}
+
+
+.user-menu ul li:nth-child(2),
+
+.user-menu ul li:nth-child(3)
+{
+    padding-top: 5px;
+}
+nav ul li .dropdown a{
+    color:black;
+    text-transform: capitalize;
+    display: block;
+    padding:10px 5px;
+    font-size: 14px;
+}
+
+nav .dropdown ul li:hover a{
+    background-color: #E3E6E3;
+}
+nav ul li:hover .dropdown{
+    display: block;
+}
+ .user-menu i{
+    color:white;
+    font-size: 16px;
+}
+.user-menu li{
+    margin:12px 5px 0 0;
+    
+}
+.user-menu li:first-child{
+    margin-right: 25px;
+}
+.user-menu li:first-child a{
+    font-size: 16px;
+    display: block;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* sec -header section */
+#sec-header{
+    background-color: #4A4A4A;
+}
+#sec-header .active a{
+    background-color: #222;
+}
+#sec-header a{
+    color:white;
+    font-size: 12px;
+    display:block;
+    padding: 13px 12px;
+}
+#sec-header a:hover{
+    background-color: #444444;
+}
+/* Content section */
+
+.F-matches{
+    background-color: #FFFFFF;
+    color: #009270;
+    padding-top: 10px;
+    font-size: 14px;
+border-bottom: 5px solid #E3E6E3;
+    
+}
+
+.s-score h2{
+    background-color: #FFFFFF;
+    color: #009270;
+    padding-left: 14px;
+
+}
+
+.s-score ul {
+    display: inline-block;
+    padding: 0 90px 10px 30px;
+    border-right: 1px solid black;
+    
+}
+
+.s-score ul li a{
+    color: #222;
+}
+    
+
+
+
+
+.sidebar1{
+    width:21%;
+}
+.sidebar2{
+    width: 30%;
+}
+
+.sidebar1 h2,
+.sidebar2 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #009270;
+}
+.sidebar1 .latest-news{
+    background-color: white;
+    padding: 12px 14px;
+}
+.sidebar1 .latest-news ul li a{
+    display: block;
+    font-size: 16px;
+    color: #222;
+}
+.sidebar1 .latest-news ul li{
+    
+    margin-bottom:18px;
+}
+.sidebar1 .latest-news ul li a:hover{
+    text-decoration: underline;
+}
+.sidebar1 .latest-news ul li small{
+    color: #444444;
+}
+
+.sidebar2 {
+    background-color: white;
+}
+
+.sidebar2 .f-videos{
+    padding: 12px 14px;
+}
+
+.f-videos .f-vid h3{
+    color: #222;
+}
+
+
+#main {
+padding: 16px;
+background-color: white;
+border-left: 5px solid #E3E6E3;
+border-right: 5px solid #E3E6E3;
+}
+
+#main{
+    width: 49%;
+}
+
+#main h2{
+    color: #222;
+
+}
+
+#main p{
+    color: #222;
+}
+
+.footer{
+    background-color: #4A4A4A;
+    padding-bottom: 70px ;
+    padding-left: 400px;
+}
+
+.F-logo{
+    width: 15%;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+ .mobile-site h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+.follow h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+.company h2 {
+    color: #fff;
+    padding: 20px 20px 20px 20px
+}
+
+
+
+.mobile-site ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+     line-height: 2;
+}
+
+.follow ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    line-height: 2;
+}
+
+
+.company ul li a{
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="row space-between">
+                <div class="col1">
+                    <div class="logo">
+                        <img class="w-100" src="assets/images/cb_logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col2">
+                    <nav>
+                        <ul class="row ">
+                            <li><a href="#">live scores</a></li>
+                            <li><a href="#">schedule</a></li>
+                            <li><a href="#">archives</a></li>
+                            <li><a href="#">News<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                <ul>
+                                    <li><a href="#">all stories</a></li>
+                                    <li><a href="#">crickbuzz plus</a></li>
+                                    <li><a href="#">latest news</a></li>
+                                    <li><a href="#">topics</a></li>
+                                    <li><a href="#">spotlight</a></li>
+                                    <li><a href="#">opinions</a></li>
+                                    <li><a href="#">specials</a></li>
+                                    <li><a href="#">stats & analysis</a></li>
+                                    <li><a href="#">interviews</a></li>
+                                    <li><a href="#">live blogs</a></li>
+                                    <li><a href="#">harsha bhogle</a></li>
+                                </ul>
+
+                            </div>
+                            
+                            
+                            
+                            </li>
+                            <li><a href="#">series<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li><a href="#">all stories</a></li>
+                                        <li><a href="#">crickbuzz plus</a></li>
+                                        <li><a href="#">latest news</a></li>
+                                        <li><a href="#">topics</a></li>
+                                        <li><a href="#">spotlight</a></li>
+                                        <li><a href="#">opinions</a></li>
+                                        <li><a href="#">specials</a></li>
+                                        <li><a href="#">stats & analysis</a></li>
+                                        <li><a href="#">interviews</a></li>
+                                        <li><a href="#">live blogs</a></li>
+                                        <li><a href="#">harsha bhogle</a></li>
+                                    </ul>
+    
+                                </div></li>
+                            <li><a href="#">Teams<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li><a href="#">all stories</a></li>
+                                        <li><a href="#">crickbuzz plus</a></li>
+                                        <li><a href="#">latest news</a></li>
+                                        <li><a href="#">topics</a></li>
+                                        <li><a href="#">spotlight</a></li>
+                                        <li><a href="#">opinions</a></li>
+                                        <li><a href="#">specials</a></li>
+                                        <li><a href="#">stats & analysis</a></li>
+                                        <li><a href="#">interviews</a></li>
+                                        <li><a href="#">live blogs</a></li>
+                                        <li><a href="#">harsha bhogle</a></li>
+                                    </ul>
+    
+                                </div></li>
+                            <li><a href="#">Videos<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li><a href="#">all stories</a></li>
+                                        <li><a href="#">crickbuzz plus</a></li>
+                                        <li><a href="#">latest news</a></li>
+                                        <li><a href="#">topics</a></li>
+                                        <li><a href="#">spotlight</a></li>
+                                        <li><a href="#">opinions</a></li>
+                                        <li><a href="#">specials</a></li>
+                                        <li><a href="#">stats & analysis</a></li>
+                                        <li><a href="#">interviews</a></li>
+                                        <li><a href="#">live blogs</a></li>
+                                        <li><a href="#">harsha bhogle</a></li>
+                                    </ul>
+    
+                                </div></li>
+                            <li><a href="#">Rankings<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li><a href="#">all stories</a></li>
+                                        <li><a href="#">crickbuzz plus</a></li>
+                                        <li><a href="#">latest news</a></li>
+                                        <li><a href="#">topics</a></li>
+                                        <li><a href="#">spotlight</a></li>
+                                        <li><a href="#">opinions</a></li>
+                                        <li><a href="#">specials</a></li>
+                                        <li><a href="#">stats & analysis</a></li>
+                                        <li><a href="#">interviews</a></li>
+                                        <li><a href="#">live blogs</a></li>
+                                        <li><a href="#">harsha bhogle</a></li>
+                                    </ul>
+    
+                                </div></li>
+                            <li><a href="#">More<i class="fa-solid fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li><a href="#">all stories</a></li>
+                                        <li><a href="#">crickbuzz plus</a></li>
+                                        <li><a href="#">latest news</a></li>
+                                        <li><a href="#">topics</a></li>
+                                        <li><a href="#">spotlight</a></li>
+                                        <li><a href="#">opinions</a></li>
+                                        <li><a href="#">specials</a></li>
+                                        <li><a href="#">stats & analysis</a></li>
+                                        <li><a href="#">interviews</a></li>
+                                        <li><a href="#">live blogs</a></li>
+                                        <li><a href="#">harsha bhogle</a></li>
+                                    </ul>
+    
+                                </div></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col3">
+                    <div class="user-menu">
+                        <ul class="row">
+                            <li><a href="#">Cricbuzz Plus</a></li>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-circle-user"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div id="sec-header" class="row space-between">
+            <div class="sec-nav">
+                <ul class="row ">
+                    <li class="active"><a href="#">MATCHES</a></li>
+                    <li><a href="#">RCB vs GT-Live</a></li>
+                    <li><a href="#">RR vs MI - Preview</a></li>
+                    <li><a href="#">LSG vs PBKS - LSG WON</a></li>
+                    <li><a href="#">DUR vs SUS - Live</a></li>
+                    <li><a href="#">SUR vs GLOUCS - Live</a></li>
+                </ul>
+            </div>
+            <div class="all">
+                <a href="#">ALL <i class="fas fa-caret-down"></i></a>
+            </div>
+        </div>
+
+        <div class=F-matches>
+            <ul class="s-score">
+                <h2>FEATURED MATCHES</h2>
+                
+                <ul>
+                    <li><a href="#">KAR253 & 114</a></li>
+                    <li><a href="#">KAR253 & 114</a></li>
+                    <li><a href="#">KAR253 & 114</a></li>
+                    <li><a href="#">KAR253 & 114</a></li>
+                    </ul>
+                    
+                    <ul>
+                        <li><a href="#">KAR253 & 114</a></li>
+                        <li><a href="#">KAR253 & 114</a></li>
+                        <li><a href="#">KAR253 & 114</a></li>
+                        <li><a href="#">KAR253 & 114</a></li>
+                        </ul>
+                        
+                    <ul>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            </ul>
+                            
+                    <ul>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            <li><a href="#">KAR253 & 114</a></li>
+                            </ul>
+           
+            </ul>
+        </div>
+    
+        <div id="content">
+            <div class="row space-between">
+                <div class="sidebar1">
+                    <div class="latest-news">
+                        <h2>Latest News</h2>
+                        <ul>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                            <li><a href="#">Knight Riders, MLC announce plans for multi million dollar stadium near Los Angeles</a>
+                                <small>9h ago</small>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="main">
+
+                    <div class="sidebar3">
+                        <div class="h-lights">
+                            <ul>
+                                <small>Injury Blow</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/crickbuzz image.jpg" alt="">
+                                        </div>
+                                        <h2>KL Rahul, Kuldeep Yadav out of SA series; Pant to lead</h2>
+                                        <p>Pandya named vice-captain; no replacements picked for injured duo
+                                            Preview / Can India's bench be their strength?27 degrees of separation for SA in IndiaDravid welcomes Hardik the bowler</p>
+</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Interviews</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/the-miller-mindset.jpg" alt="">
+                                        </div>
+                                        <h2>The Miller mindset</h2>
+                                        <p>in an exclusive chat, David Miller opens up on his IPL triumph, his batting in the last couple of years, the outside influences and a lot more
+                                            Bavuma on a trophy hunt in IndiaBig three key to South Africa's success in India</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+    
+                            <ul>
+                                <small>Injury Blow</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/crickbuzz image.jpg" alt="">
+                                        </div>
+                                        <h2>KL Rahul, Kuldeep Yadav out of SA series; Pant to lead</h2>
+                                        <p>Pandya named vice-captain; no replacements picked for injured duo
+                                            Preview / Can India's bench be their strength?27 degrees of separation for SA in IndiaDravid welcomes Hardik the bowler</p>
+</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Interviews</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/the-miller-mindset.jpg" alt="">
+                                        </div>
+                                        <h2>The Miller mindset</h2>
+                                        <p>in an exclusive chat, David Miller opens up on his IPL triumph, his batting in the last couple of years, the outside influences and a lot more
+                                            Bavuma on a trophy hunt in IndiaBig three key to South Africa's success in India</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Interviews</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/the-miller-mindset.jpg" alt="">
+                                        </div>
+                                        <h2>The Miller mindset</h2>
+                                        <p>in an exclusive chat, David Miller opens up on his IPL triumph, his batting in the last couple of years, the outside influences and a lot more
+                                            Bavuma on a trophy hunt in IndiaBig three key to South Africa's success in India</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Injury Blow</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/crickbuzz image.jpg" alt="">
+                                        </div>
+                                        <h2>KL Rahul, Kuldeep Yadav out of SA series; Pant to lead</h2>
+                                        <p>Pandya named vice-captain; no replacements picked for injured duo
+                                            Preview / Can India's bench be their strength?27 degrees of separation for SA in IndiaDravid welcomes Hardik the bowler</p>
+</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Interviews</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/the-miller-mindset.jpg" alt="">
+                                        </div>
+                                        <h2>The Miller mindset</h2>
+                                        <p>in an exclusive chat, David Miller opens up on his IPL triumph, his batting in the last couple of years, the outside influences and a lot more
+                                            Bavuma on a trophy hunt in IndiaBig three key to South Africa's success in India</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <small>Injury Blow</small>
+                                <li>
+                                    <a href="#">
+                                        <div class="h-lig">
+                                            <img class="w-100" src="assets/images/crickbuzz image.jpg" alt="">
+                                        </div>
+                                        <h2>KL Rahul, Kuldeep Yadav out of SA series; Pant to lead</h2>
+                                        <p>Pandya named vice-captain; no replacements picked for injured duo
+                                            Preview / Can India's bench be their strength?27 degrees of separation for SA in IndiaDravid welcomes Hardik the bowler</p>
+</p>
+
+                                    </a>
+
+                                </li>
+                            </ul>
+
+
+                           
+
+    
+
+    
+
+                            
+                        </div>
+                    </div>
+    
+
+                </div>
+                <div class="sidebar2">
+                    <div class="f-videos">
+                        <h2>Latest News</h2>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="f-vid">
+                                        <img src="https://www.cricbuzz.com/a/img/v1/290x164/i1/c235441/india-needs-to-get-the-best-ou.jpg">
+                                        
+                                        <h3>India needs to get the best out of all-rounder Hardik: Rahul Dravid</h3>
+                                    </div>
+                                </a>
+                                <small>14h ago</small>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+
+               
+            
+            
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="footer row" >
+      
+        
+        <div class="F-logo">
+            <img src="assets/images/cb_logo.svg" alt="">
+        </div>
+     
+           <div class="mobile-site">
+            <ul>
+                <h2>MOBILE SITE & APPS</h2>
+                <li><a href="#"><i class="fa-solid fa-globe"></i> m.cricbuzz.com</a></li>
+                <li><a href="#"><i class="fa-brands fa-android"></i> Android</a></li>
+                <li><a href="#"><i class="fa-brands fa-apple"></i> iOS</a></li>
+            </ul>
+           </div>
+           <div class="follow">
+            <ul>
+                <h2>FOLLOW US ON</h2>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i> twitter</a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i> pinterest</a></li>
+            </ul>
+            
+           </div>
+
+       <div class="company">
+        <h2>COMPANY</h2>
+        <ul>
+
+            
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Cricbuzz TV Ads</a></li>
+        </ul>
+   
+   
+       </div>
+       
+       
+       
+       
+    </div>
+
+
+
+
+
+
+
+    <!-- script -->
+    <script src="https://kit.fontawesome.com/c53a7ebf42.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
